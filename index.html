@@ -31,28 +31,29 @@
         <p><b style="font-weight: 600">Try it free for 7 days</b> then $20/mo, thereafter</p>
       </div>
         <form action="#" class="formbox">
+  
           <div>
-          <input class="text"  type="text" id="fname" name="FName" placeholder="First Name"required />
+          <input class="text"  type="text" id="fname" name="FName" placeholder="First Name"required /><div class="errormessage">First Name cannot be empty</div>
         </div>
           <div>
-          <input class="text"  type="text" id="lname" name="LName" placeholder="Last Name" required />
+          <input class="text"  type="text" id="lname" name="LName" placeholder="Last Name" required /><div class="errormessage">Last Name cannot be empty</div>
         </div>
           <div>
-          <input class="text" type="email" id="email" name="Email" placeholder="Email Address" pattern="[a-z0-9]+@[a-z0-9.-]+.[a-z]"  required />
+          <input class="text" type="email" id="email" name="Email" placeholder="Email Address" pattern="[a-z0-9]+@[a-z0-9.-]+.[a-z]"  required /><div class="errormessage">Looks like this is not an email.</div>
         </div>
           <div>
-          <input class="text" type="password" id="password" name="Password" placeholder="Password" pattern="([A-Za-z0-9?=.*\])" minlength="8" maxlength="15" required />
+          <input class="text" type="password" id="password" name="Password" placeholder="Password" pattern="([A-Za-z0-9?=.*\])" minlength="8" maxlength="15" required /><div class="errormessage">Password cannot be empty</div>
         </div>
         <div>
           <input class="button" type="submit" value="CLAIM YOUR FREE TRIAL"/>
         </div>
+        <div>
           <p style="font-size:9px; color: hsl(246, 25%, 77%); text-align: center; margin:10px; cursor: default;">
             By clicking this button, you are agreeing our
             <b style="font-weight:600; color:hsl(0, 100%, 74%)">Terms and Services</b>
           </p>
+        </div>
         </form>
-      </div>
-     </div>
     </main>
   </body>
 </html>
