@@ -7,138 +7,130 @@
 body {
   background-color: hsl(0, 100%, 74%);
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
 }
-.designcontainer{
-    display: flex;
-    justify-content: center;
+.designcontainer {
+  display: flex;
+  justify-content: center;
 }
-.formcontainer{
-    width: 30%;
-    border: none; 
-    margin-top: 90px;
-    margin-right: 100px;
-    margin-bottom: 15px;
-}
-
-.main  {
-    
-    width: 35%;
-    color: whitesmoke;
-    margin-top: 180px;
-    margin-right: 60px;
-    justify-content: center;
-   
-}
-.message{
-    
-    color: whitesmoke;
-    padding-left: 80px;
-    margin-top: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.formcontainer {
+  width: 30%;
+  border: none;
+  margin-top: 90px;
+  margin-right: 100px;
+  margin-bottom: 15px;
 }
 
-.top{
-    background-color: hsl(248, 32%, 49%);
-     width: 100%;
-     margin-bottom: 15px;
-    border: none;
-    border-radius: 7px;
-    padding: 15px;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 10px;
-     display: flex;
-    align-items: center;
-    justify-content: center; 
-} 
-
-.formbox{
-    padding: 10px;
-    background-color: white;
-    border: none;
-    border-radius: 7px;
+.main {
+  width: 35%;
+  color: whitesmoke;
+  margin-top: 180px;
+  margin-right: 60px;
+  justify-content: center;
 }
-div h3{
-    font-size:40px; 
-    font-weight:700;
-}
-div p{
-    font-size:14px;
-    font-weight: 400;
-}
-input{
-    width: 90%;
-    margin: 10px;
-    margin-left:18px;
-    padding: 10px;
-    padding-left: 15px;
-    border: 1px solid hsl(246, 25%, 77%);
-    border-radius: 4px;
-    font-family: "Poppins";
-    font-size: 10px;
-    font-weight: 500;
-    color: hsl(249, 10%, 26%);
-    cursor: text;
+.message {
+  color: whitesmoke;
+  padding-left: 80px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.top {
+  background-color: hsl(248, 32%, 49%);
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 7px;
+  padding: 15px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.errormessage{
+.formbox {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+}
+div h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+div p {
+  font-size: 14px;
+  font-weight: 400;
+}
+input {
+  width: 90%;
+  margin: 10px;
+  margin-left: 18px;
+  padding: 10px;
+  padding-left: 15px;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  color: hsl(249, 10%, 26%);
+  cursor: text;
+}
+
+.errormessage {
   font-size: 10px;
   font-style: italic;
   margin-left: 227px;
   margin-bottom: 5px;
   display: none;
-
 }
 
-
-.bottom{
-    width: 30%;
-    float: right;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    margin-top: 60px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.bottom {
+  width: 30%;
+  float: right;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 60px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.button{
-    width: 90%;
-    background-color: hsl(154, 59%, 51%);
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
-    margin-left: 18px;
-    color: whitesmoke;
-    text-align: center;
-    cursor: default;
-    font-weight: 500;
-    font-size: 12px;
+.button {
+  width: 90%;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 18px;
+  color: whitesmoke;
+  text-align: center;
+  cursor: default;
+  font-weight: 500;
+  font-size: 12px;
 }
 
-.button:active{
-    background-color: hsla(154, 59%, 51%, 0.7);
-    cursor: pointer;
+.button:active {
+  background-color: hsla(154, 59%, 51%, 0.7);
+  cursor: pointer;
 }
 
-
-input:focus{
-    outline: none;
-    box-shadow: 0 0 0 0.5px hsl(248, 32%, 49%); 
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5px hsl(248, 32%, 49%);
 }
 
-input:valid{
+input:valid {
   outline: 0.7px solid hsl(248, 32%, 49%);
 }
 
-.errormessage{
+.errormessage {
   font-size: 10px;
   color: hsl(0, 100%, 74%);
   font-style: italic;
@@ -147,22 +139,23 @@ input:valid{
   display: none;
 }
 
-
-.text:invalid:focus{
+.text:invalid:focus {
   background: url(icon-error.svg) no-repeat 94%center;
   outline: 1.5px solid hsl(0, 100%, 74%);
   border-radius: 5px;
 }
 
-.text:required:focus ~ .errormessage{
-  display: block;
+.text:required:valid:focus ~ .errormessage {
+  display: none;
+}
 
+.text:required:focus ~ .errormessage {
+  display: block;
 }
 
 @media screen and (max-width: 1440px) {
   body .designcontainer {
     background-image: url("bg-intro-desktop.png");
-    
   }
 }
 @media screen and (max-width: 375px) {
@@ -171,19 +164,19 @@ input:valid{
     width: 100%;
   }
 
-  .formcontainer{
-    flex-direction: column; 
+  .formcontainer {
+    flex-direction: column;
     width: 80%;
     margin-left: 35px;
     margin-top: 50px;
     margin-bottom: 15px;
   }
 
-  .designcontainer{
+  .designcontainer {
     flex-direction: column;
   }
 
-  .errormessage{
+  .errormessage {
     font-size: 8px;
     color: hsl(0, 100%, 74%);
     font-style: italic;
@@ -192,39 +185,33 @@ input:valid{
     display: none;
   }
 
-
-  .main{
+  .main {
     width: 80%;
     margin-top: 50px;
-
   }
 
-  .message{
+  .message {
     text-align: center;
     margin-top: 5px;
-
   }
-    div h3{
-        font-size: 20px;
-        font-weight: 700;
-        
-    }
+  div h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-    h3.message{
-        margin-top: 5px;
-    }
-    div p{
-        font-size: 12px;
-        font-weight: 400;
-    }
+  h3.message {
+    margin-top: 5px;
+  }
+  div p {
+    font-size: 12px;
+    font-weight: 400;
+  }
 
-
- /* .top{
+  /* .top{
     width: 80%%;
 }
 
 .formbox{
  width: 80%%;
 } */
-
 }
